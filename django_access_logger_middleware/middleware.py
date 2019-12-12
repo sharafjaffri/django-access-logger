@@ -1,7 +1,7 @@
 import json
 from django.core.files.base import File
 from django.contrib.auth.models import AnonymousUser
-from django_access_logger.models import AccessLogs
+from django_access_logger_middleware.models import AccessLogs
 from django.contrib.auth import get_user_model
 
 
