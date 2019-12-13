@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='django_access_logger_middleware',
-    version='0.0.1',
+    version='0.0.2',
     description='Access logging package for Django',
     url='https://github.com/sharafjaffri/django-access-logger.git',
     author='Sharaf Ali',
