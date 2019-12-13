@@ -9,7 +9,6 @@ exclude *.coveragerc
 exclude *.sh
 exclude proc*
 exclude pylint*
-exclude README*
 
 include requirements*.*
 exclude requirements-dev.*
@@ -19,3 +18,9 @@ include *.so
 prune .git
 prune venv
 prune test*
+
+# Include the README
+include *.md
+
+# Include the license file
+include LICENSE
